@@ -14,7 +14,7 @@ let image         = document.querySelector("#image img");
 let imageinput    = document.querySelector("#image input");
 
 // ── API KEY: paste your Gemini key between the quotes ─────
-const GEMINI_API_KEY = localStorage.getItem('ribsApiKey') || "AIzaSyDZ8SXttpPGCnGQ4hsNm1yJENCH9f5IZWo";
+const GEMINI_API_KEY = localStorage.getItem('ribsApiKey') || "Add your api key here";
 const Api_Url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${GEMINI_API_KEY}`;
 
 // Show API key prompt if key is missing / placeholder
